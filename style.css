@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav h1{
+    font-size: 30px;
+    font-weight: 1200;
+}
+nav button{
+    background: transparent;
+    height: 38px;
+    width: 90px;
+    border: 2px solid black;
+}
+hr{
+    width: 80%;
+    margin: 0px 160px ;
+}
+.hero{
+    height: 103vh;
+    width: 100%;
+    display: flex;
+}
+.hero .div1{
+    width: 60%;
+}
+.hero .div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(221,209,193);
+    width: 40%;
+    gap: 122px;
+}
+.hero .div1 .box{
+    margin-left: 160px;
+    margin-top: 80px;
+}
+.hero .div1 .box .intro{
+    font-size: 55px;
+    font-weight:bolder;
+
+}
+.hero .div1 .box .intro_1{
+    font-size: 55px;
+    font-weight:bolder;
+    margin-bottom: 25px;
+
+}
+.hero .div1 .box h1 button{
+    background-color: rgb(84,98,255);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    height: 30px;
+    border: none;
+    width: 70px;
+    
+}
+.hero .div1 .box p{
+    font-weight: 600;
+}
+.btn_1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(253,72,29);
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.btn_2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100px;
+    background:transparent;
+    border: none;
+    font-weight: 600;
+}
+.box img{
+    position: absolute;
+    top: 410px;
+    left: 400px;
+    width: 120px;
+}
+.box .bbox{
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+    align-items: center;
+}
+.box_1{
+    background-color: rgb(38,38,38);
+    color: white;
+    height: 32vh;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.box_1 button{
+    margin-top: 20px;
+    height: 35px;
+    width: 100px;
+    background-color: yellow;
+    color: black;
+}
+.box_1 p{
+    line-height: 40px;
+}
