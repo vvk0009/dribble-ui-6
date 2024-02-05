@@ -162,5 +162,14 @@ hr{
     }
     .box img{
         left: 200px;
+        top: 340px;
+    }
+    .hero .div1 .box .intro{
+        font-size: 30px;
+    
+    }
+    .hero .div1 .box .intro_1{
+        font-size: 30px;
+    
     }
 }
