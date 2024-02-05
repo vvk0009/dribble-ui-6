@@ -133,3 +133,34 @@ hr{
 .box_1 p{
     line-height: 40px;
 }
+
+@media (max-width:867px) {
+    .box img{
+        left: 300px;
+    }
+    .hero .div2{
+        display: none;
+    }
+    .hero .div1{
+        width: 100%;
+    }
+    hr{
+        display: none;
+    }
+}
+@media (max-width:584px){
+    nav button{
+        display: none;
+    }
+}
+@media (max-width:471px){
+    .hero .div1 .box{
+        margin-left: 60px;
+    }
+    nav ul{
+        display: none;
+    }
+    .box img{
+        left: 200px;
+    }
+}
